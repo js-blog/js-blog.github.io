@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>打造自家的博客 on 博客</title>
+    <link>http://example.org/my-hugo-blog/</link>
+    <description>Recent content in 打造自家的博客 on 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/my-hugo-blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://example.org/my-hugo-blog/initialization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/my-hugo-blog/initialization/</guid>
+      <description>创建 Hugo 博客 Hugo 是用 Go 语言写的，支持多个平台。
+最新的 release 版本可以在 Hugo Releases 找到。预构建好的二进制文件涵盖了 Windows, Linux, FreeBSD 和 OS X (Darwin) for x64, i386 以及 ARM，ARM64 等不同的架构和发行版。
+安装 Hugo （二进制执行文件） 安装过程非常简单。只需要下载适合系统版本的单个文件即可。 下载完毕后它可以在任何地方运行，并不需要特别的账号权限。为了方便使用，可以把它安装到 PATH 环境变量所在的位置。
+wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.tar.gz tar zxvf hugo_0.53_Linux-64bit.tar.gz -C /usr/local/bin 新建一个站点 关于 hugo 的使用方法，可以通过 hugo --help 或 hugo [command] --help 获得。新建站点的命令是
+hugo new site blog 其实就是生成一个最初等的目录结构。其内容如下：
+ ▸ archetypes/
+▸ content/
+▸ layouts/
+▸ static/
+▸ themes/
+config.toml
+ 这几个文件夹的作用分别是</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/my-hugo-blog/syntaxhighlighting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/my-hugo-blog/syntaxhighlighting/</guid>
+      <description>语法高亮的修饰 如前所述，Hugo Learn 主题的代码语法高亮采用的是 highlight.js 库，最大的问题是不支持行号。 Hugo 本身是可以渲染代码语法高亮的，因此，将代码高亮的方案改回到官方的 Chroma。
+Hugo 主题的叠加与合并 Hugo 支持多个主题的叠加与合并。 在 themes 文件夹中的每个主题都包括了位于其下的 static, layouts (templates)，和 archetypes 等文件夹。Hugo 将依照顺序合并多个主题的文件以形成最终样式。根文件夹下的 static, layouts (templates)，以及 archetypes 不在 themes 文件夹中，但却有最高的优先级。因此，将主题文件夹中的样式文件复制到根文件夹的对应位置来，再修改其中的内容，就可以覆盖掉原主题文件，从而达到修改主题样式的目的。这样做的好处是不破坏原主题文件，改乱了还原也比较方便。
+/* Remove the symbols before task lists */ .task-list label {font-weight: lighter} .task-list li {list-style-type: none} /* To overwrite the original theme&amp;#39;s theme.css */ .chroma code {color: #3b2a2a} /* Overwrite theme.css::650: pre code {color: whitesmoke} */ .chroma .lntable {background-color: white} .</description>
+    </item>
+    
+  </channel>
+</rss>
